@@ -347,7 +347,7 @@ a {
 /****** Activités ***********/
 .activities {
     margin: 35px 0;
-    padding: 30px 0;
+    padding: 30px;
 }
 
 .activities-title {
@@ -537,11 +537,13 @@ footer {
 
     .search-form {
         max-width: 100%;
+        width: 100%;
     }
 
     .search-input {
         text-align: left;
-        padding-left: 10px;
+        width: 100%;
+        padding-left: 5%;
     }
 
     .search-btn-txt {
@@ -551,7 +553,7 @@ footer {
     .search-btn-icon {
         display: block;
         position: relative;
-        right: 30px;
+        right: 10px;
     }
 
     .filter-btns {
@@ -559,6 +561,7 @@ footer {
         justify-content: center;
         gap: 20px 10px;
         flex-wrap: wrap;
+        width: 100%;
     }
 
     .filter-btn {
@@ -624,10 +627,6 @@ footer {
         margin-top: 0;
     }
 
-    /*****activities*****/
-    .activities {
-        padding: 30px
-    }
 
     .activities-cards {
         flex-direction: column;
